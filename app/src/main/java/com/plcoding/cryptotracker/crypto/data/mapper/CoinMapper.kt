@@ -1,6 +1,6 @@
 package com.plcoding.cryptotracker.crypto.data.mapper
 
-import com.plcoding.cryptotracker.crypto.data.dto.CoinResponseDto
+import com.plcoding.cryptotracker.crypto.data.dto.coin.CoinResponseDto
 import com.plcoding.cryptotracker.crypto.domain.model.Coin
 
 fun CoinResponseDto.toCoin(): Coin{

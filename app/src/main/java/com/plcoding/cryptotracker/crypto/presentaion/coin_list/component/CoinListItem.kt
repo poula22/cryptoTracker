@@ -20,15 +20,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.tooling.preview.PreviewDynamicColors
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.plcoding.cryptotracker.core.presentation.ui.theme.CryptoTrackerTheme
 import com.plcoding.cryptotracker.crypto.domain.model.Coin
-import com.plcoding.cryptotracker.crypto.presentaion.coin_list.model.CoinUi
-import com.plcoding.cryptotracker.crypto.presentaion.coin_list.model.toCoinUi
-import com.plcoding.cryptotracker.ui.theme.CryptoTrackerTheme
+import com.plcoding.cryptotracker.crypto.presentaion.model.CoinUi
+import com.plcoding.cryptotracker.crypto.presentaion.model.toCoinUi
 
 @Composable
 fun CoinListItem(

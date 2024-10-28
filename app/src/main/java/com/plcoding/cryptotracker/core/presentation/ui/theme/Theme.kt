@@ -1,4 +1,4 @@
-package com.plcoding.cryptotracker.ui.theme
+package com.plcoding.cryptotracker.core.presentation.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

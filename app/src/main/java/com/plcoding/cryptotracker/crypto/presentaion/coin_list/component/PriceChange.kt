@@ -8,7 +8,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -21,9 +20,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.plcoding.cryptotracker.crypto.presentaion.coin_list.model.DisplayableNumber
-import com.plcoding.cryptotracker.ui.theme.CryptoTrackerTheme
-import com.plcoding.cryptotracker.ui.theme.greenBackground
+import com.plcoding.cryptotracker.core.presentation.ui.theme.CryptoTrackerTheme
+import com.plcoding.cryptotracker.core.presentation.ui.theme.greenBackground
+import com.plcoding.cryptotracker.crypto.presentaion.model.DisplayableNumber
 
 @Composable
 fun PriceChange(

@@ -1,6 +1,6 @@
 package com.plcoding.cryptotracker.crypto.presentaion.coin_list
 
-import com.plcoding.cryptotracker.crypto.presentaion.coin_list.model.CoinUi
+import com.plcoding.cryptotracker.crypto.presentaion.model.CoinUi
 
 sealed interface CoinListAction {
     data class OnCoinClick(val coinUi: CoinUi): CoinListAction
