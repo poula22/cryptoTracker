@@ -1,9 +1,9 @@
 package com.plcoding.cryptotracker.core.presentation.di
 
-import com.plcoding.cryptotracker.core.data.remote.HttpClientFactory
-import com.plcoding.cryptotracker.crypto.data.remote.RemoteCoinDataSource
-import com.plcoding.cryptotracker.crypto.domain.dataSource.CoinDataSource
-import com.plcoding.cryptotracker.crypto.presentaion.viewModel.CoinListViewModel
+import com.softspire.crypto_data.remote.RemoteCoinDataSource
+import com.softspire.crypto_domain.dataSource.CoinDataSource
+import com.softspire.crypto_presentation.viewModel.CoinListViewModel
+import com.softspire.core_data.remote.HttpClientFactory
 import io.ktor.client.engine.cio.CIO
 import org.koin.androidx.viewmodel.dsl.viewModelOf
 import org.koin.core.module.dsl.singleOf

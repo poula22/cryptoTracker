@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.plcoding.cryptotracker.core.presentation.navigation.AdaptiveCoinListCoinPane
+import com.softspire.crypto_presentation.navigation.AdaptiveCoinListCoinPane
 import com.plcoding.cryptotracker.core.presentation.ui.theme.CryptoTrackerTheme
 
 class MainActivity : ComponentActivity() {

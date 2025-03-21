@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -19,6 +20,13 @@ dependencyResolutionManagement {
     }
 }
 
+
 rootProject.name = "CryptoTracker"
 include(":app")
- 
+include(":core")
+include(":core:core_presentation")
+include(":core:core_domain")
+include(":core:core_data")
+include(":crypto:crypto_presentation")
+include(":crypto:crypto_domain")
+include(":crypto:crypto_data")
