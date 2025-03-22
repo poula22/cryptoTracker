@@ -2,11 +2,13 @@ package com.softspire.crypto_presentation.model
 
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
+import androidx.compose.runtime.Stable
 import com.softspire.core_presentation.util.getDrawableIdForCoin
 import com.softspire.crypto_domain.model.Coin
 import com.softspire.crypto_presentation.coin_detail.model.DataPoint
 import java.util.Locale
 
+@Stable
 data class CoinUi(
     val id: String,
     val rank: Int,

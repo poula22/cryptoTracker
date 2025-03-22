@@ -43,6 +43,7 @@ fun AdaptiveCoinListCoinPane(
         }
     }
     val navigator = rememberListDetailPaneScaffoldNavigator<Any>()
+
     NavigableListDetailPaneScaffold(
         navigator = navigator,
         listPane = {
